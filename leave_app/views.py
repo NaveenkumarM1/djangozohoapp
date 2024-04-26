@@ -603,7 +603,7 @@ def index(request):
 
 def love(request):
     print('Request for index page received')
-    return render(request, 'hello_azure/index.html')
+    return render(request, 'leave_app/index.html')
 
 
 # Get holiday list
